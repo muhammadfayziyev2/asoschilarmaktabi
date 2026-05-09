@@ -26,7 +26,7 @@ export function Hero() {
     };
 
     return (
-        <section className="relative overflow-hidden from-background via-background to-primary/5 px-4 py-20 md:py-32 w-full">
+        <section className="relative mt-30 overflow-hidden from-background via-background to-primary/5 px-4 py-20 md:py-32 w-full">
             <div className="mx-auto max-w-7xl">
                 <motion.div
                     variants={containerVariants}

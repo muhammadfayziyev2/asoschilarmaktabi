@@ -1,12 +1,30 @@
 'use client';
+import { useEffect, useState } from 'react';
 import { ChevronDown } from 'lucide-react';
 
 export default function Navbar() {
+    const [scrolled, setScrolled] = useState(false);
     const links = ['Home', 'About', 'Features', 'Pricing', 'Contact'];
 
+    useEffect(() => {
+        const handleScroll = () => {
+            setScrolled(window.scrollY > 20);
+        };
+        window.addEventListener('scroll', handleScroll);
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
+
     return (
-        <nav className="animate-fade-up delay-100 relative z-20 flex justify-center pt-6 px-6">
-            <div className="flex items-center justify-between w-full max-w-6xl bg-black/40 backdrop-blur-xl border border-white/10 rounded-full px-3 py-2.5">
+        <nav
+            className={`fixed top-0 left-0 right-0 z-50 flex justify-center px-6 transition-all duration-300 ${scrolled ? 'pt-3' : 'pt-6'
+                }`}
+        >
+            <div
+                className={`flex items-center justify-between w-full max-w-6xl border rounded-full px-3 py-2.5 transition-all duration-300 ${scrolled
+                    ? 'bg-black/70 backdrop-blur-2xl border-white/15 shadow-lg shadow-blue-500/10'
+                    : 'bg-black/40 backdrop-blur-xl border-white/10'
+                    }`}
+            >
                 {/* Logo */}
                 <div className="flex items-center gap-2 px-4">
                     <div className="flex items-end gap-0.5 h-5">
