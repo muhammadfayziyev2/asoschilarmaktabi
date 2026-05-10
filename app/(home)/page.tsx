@@ -1,4 +1,6 @@
 import Announcement from './components/Announcement';
+import AuroraBackground from './components/AuroraBackground';
+import Constellation from './components/Constellation';
 import Format from './components/Format';
 import { Hero } from './components/Hero';
 import Navbar from './components/Navbar';
@@ -9,8 +11,16 @@ import WhyUs from './components/WhyUs';
 export default function Home() {
   return (
     <main className="relative min-h-screen overflow-hidden bg-[#05070d]">
+      {/* 🌈 Aurora to'lqinlari */}
+      <AuroraBackground />
+
+      {/* ⭐ Yulduzlar */}
       <StarsBackground />
-      <div className="absolute inset-0 grid-bg pointer-events-none" />
+
+      {/* 🔗 Konstellatsiya */}
+      <Constellation />
+
+      {/* Asosiy kontent */}
       <Navbar />
       <Hero />
       <WhyUs />
