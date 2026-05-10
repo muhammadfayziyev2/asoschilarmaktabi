@@ -1,3 +1,4 @@
+import Announcement from './components/Announcement';
 import Format from './components/Format';
 import { Hero } from './components/Hero';
 import Navbar from './components/Navbar';
@@ -15,6 +16,7 @@ export default function Home() {
       <WhyUs />
       <Format />
       <Pricing />
+      <Announcement />
     </main>
   );
 }
