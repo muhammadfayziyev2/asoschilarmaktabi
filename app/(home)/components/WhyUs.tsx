@@ -68,7 +68,7 @@ export default function WhyUs() {
     };
 
     return (
-        <section className="relative py-24 px-6 overflow-hidden">
+        <section id="about" className="relative py-24 px-6 overflow-hidden">
             {/* Orqa fonda yumshoq ko'k glow */}
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[400px] bg-blue-500/5 blur-[120px] rounded-full pointer-events-none" />
 

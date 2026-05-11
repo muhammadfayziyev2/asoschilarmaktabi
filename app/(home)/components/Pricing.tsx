@@ -31,7 +31,7 @@ export default function Pricing() {
     };
 
     return (
-        <section className="relative py-20 px-6 overflow-hidden">
+        <section id="pricing" className="relative py-20 px-6 overflow-hidden">
             {/* Yumshoq orqa fon */}
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-blue-500/5 blur-[120px] rounded-full pointer-events-none" />
 

@@ -26,7 +26,7 @@ export function Hero() {
     };
 
     return (
-        <section className="relative mt-30 overflow-hidden from-background via-background to-primary/5 px-4 py-20 md:py-32 w-full">
+        <section id="home" className="relative mt-30 overflow-hidden from-background via-background to-primary/5 px-4 py-20 md:py-32 w-full">
             <div className="mx-auto max-w-7xl">
                 <motion.div
                     variants={containerVariants}
@@ -37,9 +37,9 @@ export function Hero() {
                     <motion.div variants={itemVariants} className="mb-6">
                         <div className="animate-fade-up delay-100 inline-flex items-center gap-3 bg-black/50 backdrop-blur border border-white/10 rounded-full pl-1 pr-4 py-1 mb-8">
                             <span className="bg-blue-600 text-white text-xs font-medium px-3 py-1 rounded-full">
-                                New feature
+                                Yangi g'oyalar
                             </span>
-                            <span className="text-gray-200 text-sm">Check out the team dashboard</span>
+                            <span className="text-gray-200 text-sm">Real startupga aylantiring</span>
                             <span className="bg-blue-600 rounded-full p-1.5">
                                 <ArrowRight size={14} className="text-white" />
                             </span>
@@ -50,10 +50,10 @@ export function Hero() {
                         variants={itemVariants}
                         className="mb-6 text-4xl font-bold tracking-tight md:text-6xl lg:text-7xl"
                     >
-                        Transform Your Business
+                        Founders  
                         <br />
                         <span className="text-blue-500 from-primary to-primary/60 bg-clip-text">
-                            With Innovation
+                            school
                         </span>
                     </motion.h1>
 
@@ -61,8 +61,7 @@ export function Hero() {
                         variants={itemVariants}
                         className="mx-auto mb-10 max-w-2xl text-lg text-muted-foreground md:text-xl"
                     >
-                        We help businesses grow faster with cutting-edge solutions and
-                        exceptional service. Join thousands of satisfied customers.
+                        Oʻzbekistondagi eng kuchli startup asoschilari va ekspertlari bilan amaliy darslar. O‘z startupingizni qurish, investitsiya jalb qilish va loyihani rivojlantirishni real tajriba orqali o‘rganing.
                     </motion.p>
 
                     <motion.div
@@ -70,7 +69,7 @@ export function Hero() {
                         className="flex flex-col items-center justify-center gap-4 sm:flex-row"
                     >
                         <Button className="group gap-2 px-8 py-5 bg-blue-500">
-                            Get Started
+                            Joyingizni band qiling
                             <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
                         </Button>
                     </motion.div>

@@ -104,7 +104,7 @@ export default function Format() {
     );
 
     return (
-        <section className="relative py-24 px-6 overflow-hidden">
+        <section id="features" className="relative py-24 px-6 overflow-hidden">
             {/* Orqa fonda yumshoq glow */}
             <div className="absolute top-1/3 left-1/4 w-[500px] h-[500px] bg-blue-500/5 blur-[150px] rounded-full pointer-events-none" />
             <div className="absolute bottom-1/4 right-1/4 w-[400px] h-[400px] bg-indigo-500/5 blur-[120px] rounded-full pointer-events-none" />

@@ -107,7 +107,7 @@ export default function Mentors() {
     };
 
     return (
-        <section className="relative py-24 px-6 overflow-hidden">
+        <section id="mentors" className="relative py-24 px-6 overflow-hidden">
             {/* Orqa fonda yumshoq glow */}
             <div className="absolute top-1/3 right-0 w-[500px] h-[500px] bg-blue-500/5 blur-[150px] rounded-full pointer-events-none" />
             <div className="absolute bottom-1/4 left-0 w-[400px] h-[400px] bg-indigo-500/5 blur-[120px] rounded-full pointer-events-none" />
