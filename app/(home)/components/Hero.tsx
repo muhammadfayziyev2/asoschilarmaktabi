@@ -51,7 +51,7 @@ export function Hero() {
 
                     <motion.h1
                         variants={itemVariants}
-                        className="mb-6 text-6xl font-bold tracking-tight md:text-6xl lg:text-8xl"
+                        className="mb-6 text-5xl font-bold tracking-tight md:text-6xl lg:text-8xl"
                     >
                         Founders
                         <br />
