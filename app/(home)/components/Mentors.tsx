@@ -30,6 +30,36 @@ const mentors = [
         image: "/4.jpg",
         linkedin: "#",
     },
+    {
+        name: "Roman Lavrov ",
+        role: "CTO Uzum",
+        image: "/5.jpg",
+        linkedin: "#",
+    },
+    {
+        name: "Jumabek Alikhanov",
+        role: "Founder Humblebee AI",
+        image: "/6.jpg",
+        linkedin: "#",
+    },
+    {
+        name: "Tohirjon Mirzajonov",
+        role: "CEO Imkon venture",
+        image: "/7.jpg",
+        linkedin: "#",
+    },
+    {
+        name: "Umidjon Ishmuhammedov",
+        role: "Founder Millat umidi ",
+        image: "/8.jpg",
+        linkedin: "#",
+    },
+    {
+        name: "Laziz Adhamov",
+        role: "Founder BookCafe",
+        image: "/9.jpg",
+        linkedin: "#",
+    },
 ];
 
 export default function Mentors() {
