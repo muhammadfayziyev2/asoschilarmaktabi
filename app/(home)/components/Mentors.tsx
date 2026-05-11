@@ -57,7 +57,7 @@ const mentors = [
     {
         name: "Laziz Adhamov",
         role: "Founder BookCafe",
-        image: "/9.jpg",
+        image: "/9.png",
         linkedin: "#",
     },
     {
