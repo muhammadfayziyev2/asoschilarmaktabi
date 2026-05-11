@@ -18,6 +18,18 @@ const mentors = [
         image: "/2.png",
         linkedin: "#",
     },
+    {
+        name: "Otabek Suvonov",
+        role: "Founder Sales doctor",
+        image: "/3.jpg",
+        linkedin: "#",
+    },
+    {
+        name: "Abduqahhor Toshmuhammedov",
+        role: " Founder Smartup",
+        image: "/4.jpg",
+        linkedin: "#",
+    },
 ];
 
 export default function Mentors() {
