@@ -22,7 +22,7 @@ export default function Home() {
       <Constellation />
 
       {/* Asosiy kontent */}
-      <Navbar />
+      {/* <Navbar /> */}
       <Hero />
       <Mentors />
       <WhyUs />
