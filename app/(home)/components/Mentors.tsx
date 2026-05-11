@@ -60,6 +60,18 @@ const mentors = [
         image: "/9.jpg",
         linkedin: "#",
     },
+    {
+        name: "Alisher Tojiev",
+        role: "Founder Domo",
+        image: "/10.jpg",
+        linkedin: "#",
+    },
+    {
+        name: "Jahongir Yuldash",
+        role: "Founder Kansensus",
+        image: "/11.jpg",
+        linkedin: "#",
+    },
 ];
 
 export default function Mentors() {
