@@ -62,7 +62,7 @@ export function Hero() {
 
                     <motion.p
                         variants={itemVariants}
-                        className="mx-auto mb-10 max-w-2xl text-lg text-muted-foreground md:text-xl"
+                        className="mx-auto mb-10 max-w-2xl text-muted-foreground md:text-xl"
                     >
                         Oʻzbekistondagi eng kuchli startup asoschilari va ekspertlari bilan amaliy darslar. O'z startupingizni qurish, investitsiya jalb qilish va loyihani rivojlantirishni real tajriba orqali o'rganing.
                     </motion.p>
@@ -85,7 +85,7 @@ export function Hero() {
                     {/* 📊 Statistika qatori */}
                     <motion.div
                         variants={itemVariants}
-                        className="flex flex-wrap items-center justify-center gap-x-16 gap-y-8 md:gap-x-24 pt-5"
+                        className="flex flex-wrap -mt-15 items-center justify-center gap-x-16 gap-y-8 md:gap-x-24 pt-5"
                     >
                         {stats.map((stat, i) => (
                             <motion.div
