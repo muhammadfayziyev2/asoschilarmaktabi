@@ -107,7 +107,7 @@ export function Hero() {
                                             </div>
                                         </div>
                                     ) : (
-                                        <span className="text-4xl md:text-5xl font-bold bg-gradient-to-b from-white to-blue-300 bg-clip-text text-transparent group-hover:from-blue-300 group-hover:to-blue-500 transition-all duration-500">
+                                        <span className="text-4xl md:text-5xl font-bold bg-linear-to-b from-white to-blue-300 bg-clip-text text-transparent group-hover:from-blue-300 group-hover:to-blue-500 transition-all duration-500">
                                             {stat.value}
                                         </span>
                                     )}
@@ -119,7 +119,7 @@ export function Hero() {
                                 </p>
 
                                 {/* Pastdagi chiziqcha (hover'da chiqadi) */}
-                                <div className="mt-2 h-px w-0 bg-gradient-to-r from-transparent via-blue-400 to-transparent group-hover:w-full transition-all duration-500" />
+                                <div className="mt-2 h-px w-0 bg-linear-to-r from-transparent via-blue-400 to-transparent group-hover:w-full transition-all duration-500" />
                             </motion.div>
                         ))}
                     </motion.div>

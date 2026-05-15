@@ -24,7 +24,7 @@ export default function Announcement() {
     return (
         <section className="relative py-20 px-6 overflow-hidden">
             {/* Yumshoq orqa fon glow */}
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[400px] bg-blue-500/8 blur-[120px] rounded-full pointer-events-none" />
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-125 h-100 bg-blue-500/8 blur-[120px] rounded-full pointer-events-none" />
 
             <div className="relative max-w-3xl mx-auto">
                 <motion.div
@@ -33,10 +33,10 @@ export default function Announcement() {
                     viewport={{ once: true, amount: 0.3 }}
                     transition={{ duration: 0.7, ease: "easeOut" }}
                     whileHover={{ y: -4, transition: { duration: 0.3 } }}
-                    className="group relative p-10 md:p-14 rounded-3xl border border-white/10 bg-gradient-to-br from-white/[0.04] to-white/[0.01] backdrop-blur-sm hover:border-blue-500/40 transition-all duration-500 hover:shadow-2xl hover:shadow-blue-500/15 overflow-hidden"
+                    className="group relative p-10 md:p-14 rounded-3xl border border-white/10 bg-linear-to-br from-white/[0.04] to-white/[0.01] backdrop-blur-sm hover:border-blue-500/40 transition-all duration-500 hover:shadow-2xl hover:shadow-blue-500/15 overflow-hidden"
                 >
                     {/* Yuqorida gradient chiziq */}
-                    <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-blue-400/60 to-transparent" />
+                    <div className="absolute top-0 left-0 right-0 h-px bg-linear-to-r from-transparent via-blue-400/60 to-transparent" />
 
                     {/* Hover'da chiqadigan glow */}
                     <div className="absolute -top-32 left-1/2 -translate-x-1/2 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none" />
@@ -87,7 +87,6 @@ export default function Announcement() {
                             </span>
                         </motion.div>
 
-                        {/* Ta'rif */}
                         <motion.p
                             variants={itemVariants}
                             className="text-gray-400 text-sm md:text-base leading-relaxed mb-8 max-w-xl mx-auto"
